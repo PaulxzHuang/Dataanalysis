@@ -13,9 +13,7 @@
 
 ## 二、数据清洗
 
-### 2.1导入数据
-导入并查看数据信息总览：
-
+### 2.1 导入数据
         #encoding:utf-8
         import pandas as pd
         import numpy as np
@@ -23,8 +21,11 @@
         plt.rcParams['font.sans-serif'] = ['SimHei']
         plt.rcParams['axes.unicode_minus'] = False
         TBData= pd.read_csv('tianchi_mobile_recommend_train_user.csv', header=0)
+        
+ 查看数据集信息：
+ 
         print(TBData.info())
 
-运行结果：
+结果：
         
 
