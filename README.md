@@ -1,6 +1,7 @@
 电商APP用户行为数据分析
 ========
-本次分析基于阿里云天池数据平台——淘宝用户行为推荐数据（User Behavior Data from Taobao for Recommendation）。
+本次分析基于阿里云天池数据平台——淘宝用户行为推荐数据。使用的EDA为eclipse。
+
 数据集来源：https://tianchi.aliyun.com/dataset/dataDetail?dataId=649&userId=1
 
 
