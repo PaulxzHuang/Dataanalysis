@@ -169,6 +169,7 @@ PV和UV的变化大致上是同步的，且日PV和日UV都在双十二购物节
         PV_UV_hourly.columns=['每小时PV','每小时UV']
 
 绘制曲线：
+
         plt.figure(figsize=(16,9))
         P1,=plt.plot(PV_UV_hourly['每小时PV'],label='每小时页面浏览量')
         plt.ylabel('每小时浏览总量')
